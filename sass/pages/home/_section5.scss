@@ -1,0 +1,12 @@
+@use "../../abstracts/mixins" as m;
+
+.section-five{
+    margin-top: 9rem;
+}
+
+.text-span-two{
+    @include m.span
+}
+.button-five-a{
+    @include m.small-button
+}

@@ -1,0 +1,15 @@
+@use "../abstracts/variables" as vari;
+.btn-full{
+    background: linear-gradient(vari.$color-gradient-blue);
+    color: vari.$color-white;
+}
+.btn-outline{
+    background-color: transparent;
+    border-color: vari.$color-blue;
+    color: vari.$color-blue;
+}
+.btn-custom{
+    border-radius: vari.$btn-radius;
+
+}
+

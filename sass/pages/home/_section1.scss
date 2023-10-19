@@ -1,0 +1,21 @@
+@use"../../abstracts/variables" as vari;
+
+.pace-table{
+    width: 30%;
+   td,th{
+    padding: 18px;
+   }
+   th{
+    text-align: center;
+   }
+   
+}
+.primary-section{
+    margin-top: 2rem;
+}
+.table-writing{
+    color: vari.$color-blue;
+}
+.page-twoİmg{
+    width: 500px;
+}

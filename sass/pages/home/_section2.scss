@@ -1,0 +1,30 @@
+@use"../../abstracts/mixins" as m;
+@use "../../abstracts/variables" as vari;
+
+.page-form h2{
+   
+    @include m.start-title;
+}
+
+.page-form p{
+    @include m.p;
+}
+.page-input-one input{
+    @include m.big-input;
+   
+}
+.page-input-one input::placeholder{
+    @include m.placeholders;
+}
+
+.page-input-two select{
+    @include m.center-input;
+    text-align: center !important;
+}
+.page-input-two input::placeholder{
+    @include m.placeholders;
+
+}
+.page-large-button{
+    @include m.large-buttons;
+}

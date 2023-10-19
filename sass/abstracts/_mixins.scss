@@ -1,0 +1,55 @@
+@use "./variables" as vari;
+
+
+@mixin start-title{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+@mixin p{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+@mixin big-input{
+    width: 22rem;
+    height: 3rem;
+    border-radius: 1rem;
+    text-align: end;
+    border: solid var(--GRA-Blue2, #3984F4);
+}
+@mixin center-input{ 
+    width: 11rem;
+    height: 3rem;
+    border-radius: 1rem;
+    text-align: end;
+    border: solid var(--GRA-Blue2, #3984F4);
+
+}
+
+@mixin placeholders{
+    padding: 2rem;
+    text-align: start;
+    color: #3984F4;
+}
+@mixin large-buttons{
+    width: 37rem;
+    margin-top: 2rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-size: large;
+}
+@mixin span{
+    background: linear-gradient(vari.$color-gradient-blue);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin small-button{ 
+    width: 11rem;
+    height: 4rem;
+    border-radius: 1rem;
+    border: solid var(--GRA-Blue2, #3984F4);
+
+}

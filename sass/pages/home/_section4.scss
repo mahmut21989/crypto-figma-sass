@@ -1,0 +1,17 @@
+@use "../../abstracts/mixins" as m;
+
+.section-four{
+    margin-top: 5rem;
+}
+.img-flex{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+.section-four-text{
+    margin-left: 13rem;
+}
+.text-span-one{
+    @include m.span
+}
