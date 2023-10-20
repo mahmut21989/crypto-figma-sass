@@ -7,6 +7,7 @@
   <title>Bootstrap demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="sass/style.css">
 </head>
 
@@ -39,7 +40,7 @@
               <a class="nav-link" href="#">Portfolio</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle me-5" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Products
               </a>
@@ -64,23 +65,25 @@
       <div id="cornerBlur"></div>
       <div class="row  d-flex  align-items-center justify-content-center mx-auto ">
         <div class="col-lg-5">
-          <h1 class="start-h1">
-            <span class="text-span">SIGN UP TODAY </span> <br> The World’s <br> <span class="text-span1">Fastest
-              Growing</span> <br> Crypto Web App
-          </h1>
-          <p>Buy and sell 200+ cryptocurrencies with 20+ flat currencies using <br>
-            bank transfers or your credit/debit card.
-          </p>
-          <div class="d-flex column-gap-3 mt-5 ">
-            <button type="button" class="btn btn-full btn-custom  ">Get Started</button>
+          <div class="header-text">
+            <h1 class="start-h1">
+              <span class="text-span">SIGN UP TODAY </span> <br> The World’s <br> <span class="text-span1">Fastest
+                Growing</span> <br> Crypto Web App
+            </h1>
+            <p>Buy and sell 200+ cryptocurrencies with 20+ flat currencies using <br>
+              bank transfers or your credit/debit card.
+            </p>
+          </div>
+          <div class="d-flex column-gap-3 mt-5 header-buttons">
+            <button type="button" class="btn btn-full btn-custom  header-buttonsa">Get Started</button>
             <button type="button" class="btn btn-outline btn-custom  border-2 ">Download App</button>
           </div>
         </div>
         <div class="col-lg-5">
-          <img src="sass/images/Ellipse.png" class="positinon-img-one" alt="">
+          <img src="sass/images/Ellipse.png" class="positinon-img-one d-none d-sm-block " alt="">
 
           <img src="sass/images/figmaf1.png" class="img-fluid " alt="Fotoğraf">
-          <img src="sass/images/svg/svg12.svg" class="positinon-img-two" alt="">
+          <img src="sass/images/svg/svg12.svg" class="positinon-img-two d-none d-sm-block " alt="">
         </div>
       </div>
     </div>
@@ -104,25 +107,37 @@
             </thead>
             <tbody>
               <tr>
+
+
                 <td>Bitcoin</td>
                 <td>+$43,180.1</td>
                 <td> <img src="sass/images/svg/svg1.svg" alt="">
+
                 </td>
               </tr>
               <tr>
+
+
                 <td>Ethereum</td>
+
                 <td>+$43,180.1</td>
-                <td><img src="sass/images/svg/svg2.svg" alt="">
+                <td><img src="sass/images/svg/svg2.svg" alt="Fotoğraf">
                 </td>
               </tr>
               <tr>
+
+
                 <td>Solana</td>
+
                 <td>+ $150,20</td>
-                <td><img src="sass/images/svg/svg4.svg" alt="">
+
                 </td>
               </tr>
               <tr>
+
+
                 <td>Dogecoin</td>
+
                 <td>+ $0,1572</td>
                 <td><img src="sass/images/svg/svg3.svg" alt="">
                 </td>
@@ -130,7 +145,7 @@
             </tbody>
           </table>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 mt-5 m-sm-0">
           <div class="d-flex align-items-center justify-content-between ">
             <p class="ms-5 ">🚀 Top Gainers</p>
             <p class="table-writing">More ></p>
@@ -172,7 +187,7 @@
           </table>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 mt-5 m-sm-0">
           <div class="d-flex align-items-center justify-content-between ">
             <p class="ms-4 ">💎 Recently Added</p>
             <p class="table-writing">More ></p>
@@ -217,7 +232,7 @@
     </div>
   </section>
 
-  <section class="page-form mt-5 ">
+  <!--<section class="page-form mt-5 ">
     <div class="container">
       <div class="row  align-items-center  justify-content-center ">
         <div class="col-md-6">
@@ -226,7 +241,7 @@
             <p>Buy now and get 40% extra bonus Minimum pre-sale amount <br>
               25 Crypto Coin. We accept BTC crypto-currency</p>
           </div>
-          <div class="d-flex align-items-center justify-content-center ">
+          <div class="d-flex align-items-center justify-content-center over ">
             <div class="page-input-one">
               <form action="#">
                 <input type="number" placeholder="Amount" class="mb-4 ">
@@ -267,6 +282,52 @@
         </div>
       </div>
     </div>
+  </section>-->
+
+  <section class="buy py-5 page-form overflow-hidden ">
+    <div class="container">
+      <div class="row reverse">
+        <div class="col-lg-6 mt-4 ">
+          <h2>Buy & trade on the
+            original crypto exchange.</h2>
+          <p>Buy now and get 40% extra bonus Minimum pre-sale amount 25 Crypto Coin. We accept BTC crypto-currency</p>
+          <div class="d-flex column-gap-3">
+            <div class="amount-box">
+              <span class="amount">Amount</span>
+              <input type="text" class="first-input">
+            </div>
+            <div class="input-group ">
+              <select class=" second-input" id="inputGroupSelect04" aria-label="Example select with button addon">
+                <option selected id="usd-img">USD</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+          <br><br>
+          <div class="d-flex column-gap-3">
+            <div class="amount-box">
+              <span class="amount get-box">Get</span>
+              <input type="text" class="first-input">
+            </div>
+            <div class="input-group">
+              <select class=" second-input" id="inputGroupSelect01" aria-label="Example select with button addon">
+                <option selected> BTC</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+          <br><br>
+          <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+        <div class="col-lg-6">
+          <img src="sass/images/Group 35.png" class="w-100" alt="">
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="section-three">
@@ -277,7 +338,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <div class="row">
+          <div class="row text-center">
             <div class="col-md-3">
               <img src="sass/images/1.png" class="img-fluid side-picture" alt="">
             </div>
@@ -303,7 +364,7 @@
         <div class="col-md-5 ">
           <img src="sass/images/cart.png" class="img-fluid " alt="">
         </div>
-        <div class="col-md-5 section-four-text">
+        <div class="col-md-5 section-four-text mt-5 m-md-0 ">
           <h3>Introducing the <span class="text-span-one"> NEFA </span> Credit Card</h3>
           <p>Subject to cardholder and rewards terms which will be available <br> at application.</p>
           <div class="img-flex">
@@ -327,7 +388,7 @@
 
   <section class="section-five">
     <div class="container">
-      <div class="row  align-items-center justify-content-center ">
+      <div class="row  align-items-center justify-content-center reverse">
         <div class="col-md-7">
           <div>
             <h3 class="mb-5 fw-bold ">Advanced Trading <span class="text-span-two"> Tools </span></h3>
@@ -563,9 +624,11 @@
                 <li>Never miss anything crypto when <br> you're on the go</li>
               </ul>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Recipient's username"
-                  aria-label="Recipient's username" aria-describedby="button-addon2">
-                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="bi bi-arrow-right"></i></button>
+                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Enter your email"
+                  aria-describedby="button-addon2">
+
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
+                    class="bi bi-arrow-right"></i></button>
               </div>
 
             </div>

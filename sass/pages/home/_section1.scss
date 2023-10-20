@@ -1,4 +1,5 @@
 @use"../../abstracts/variables" as vari;
+@use"../../abstracts/mixins" as m;
 
 .pace-table{
     width: 30%;
@@ -26,7 +27,7 @@
     margin-left: 3rem;
     margin-right: 3rem;
     border-radius: 3rem;
-
+    margin-top: 9rem;
 }
 
 #cornerBlur {
@@ -40,7 +41,8 @@
     filter: blur(200px); // Blur efekti uygulama//
   }
 
-  .header{
-    overflow: hidden;
-    position: relative;
+  .start-table{
+    @include m.table-img;
   }
+
+

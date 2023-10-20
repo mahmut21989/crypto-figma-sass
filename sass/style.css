@@ -1,4 +1,21 @@
 @charset "UTF-8";
+.section-nine {
+  margin-top: 5rem;
+}
+.section-nine img {
+  width: 120px;
+}
+.section-nine ul li {
+  list-style-type: none;
+}
+
+#button-addon2 {
+  background: linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%);
+}
+#button-addon2 i {
+  color: white;
+}
+
 .text-span {
   font-size: small;
   background: linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%);
@@ -71,6 +88,48 @@
   border-radius: 40px;
 }
 
+@media (max-width: 768px) {
+  .button-five {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto !important;
+  }
+  .section-four-text {
+    margin-left: 0 !important;
+    text-align: center;
+  }
+  .buy .d-flex.column-gap-3 {
+    justify-content: center;
+  }
+  .buy .second-input {
+    width: 100% !important;
+  }
+  .buy .first-input {
+    width: 180px !important;
+  }
+  .buy .btn.btn-primary {
+    width: 100% !important;
+  }
+  .header-text {
+    text-align: center !important;
+  }
+  .header-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .header-buttons .header-buttonsa {
+    margin-bottom: 2rem;
+  }
+  .reverse {
+    flex-direction: column-reverse;
+  }
+  .button-five {
+    flex-direction: column;
+  }
+}
 .pace-table {
   width: 30%;
 }
@@ -99,6 +158,7 @@
   margin-left: 3rem;
   margin-right: 3rem;
   border-radius: 3rem;
+  margin-top: 9rem;
 }
 
 #cornerBlur {
@@ -111,9 +171,10 @@
   filter: blur(200px);
 }
 
-.header {
-  overflow: hidden;
-  position: relative;
+.start-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .page-form h2 {
@@ -127,53 +188,76 @@
   margin-bottom: 1.5rem;
 }
 
-.page-input-one input {
-  width: 22rem;
-  height: 3rem;
-  border-radius: 1rem;
-  text-align: end;
-  border: solid var(--GRA-Blue2, #3984F4);
+/*
+.page-input-one input{
+    @include m.big-input;
+
+}
+.page-input-one input::placeholder{
+    @include m.placeholders;
 }
 
-.page-input-one input::-moz-placeholder {
-  padding: 2rem;
-  text-align: start;
-  color: #3984F4;
+.page-input-two select{
+    @include m.center-input;
+    text-align: center !important;
+}
+.page-input-two input::placeholder{
+    @include m.placeholders;
+
+}
+.page-large-button{
+    @include m.large-buttons;
+}
+*/
+.amount {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: var(--GRA-Blue, linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-right: 1px solid #3984F4;
+  height: 45px;
+  padding-right: 20px;
 }
 
-.page-input-one input::placeholder {
-  padding: 2rem;
-  text-align: start;
-  color: #3984F4;
+.amount-box {
+  align-items: center;
+  padding: 0 20px;
+  display: flex;
+  border: 1px solid var(--GRA-Blue2, #3984F4);
+  background: #fff;
+  border-radius: 22px;
 }
 
-.page-input-two select {
-  width: 11rem;
-  height: 3rem;
-  border-radius: 1rem;
-  text-align: end;
-  border: solid var(--GRA-Blue2, #3984F4);
-  text-align: center !important;
+.first-input {
+  outline: 0 !important;
+  border: none;
+  margin-left: 30px;
+  width: 250px;
+  height: 80px;
+  flex-shrink: 0;
+  text-align: right;
 }
 
-.page-input-two input::-moz-placeholder {
-  padding: 2rem;
-  text-align: start;
-  color: #3984F4;
+.second-input {
+  width: 150px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  border: 1px solid var(--GRA-Blue2, #3984F4);
 }
 
-.page-input-two input::placeholder {
-  padding: 2rem;
-  text-align: start;
-  color: #3984F4;
+.get-box {
+  padding-left: 31px;
 }
 
-.page-large-button {
-  width: 37rem;
-  margin-top: 2rem;
-  height: 3rem;
-  border-radius: 2rem;
-  font-size: large;
+.page-form img {
+  width: 500px;
 }
 
 .section-three {
@@ -243,29 +327,4 @@
 .section-eight img {
   width: 500px;
   margin-top: 8rem;
-}
-
-.section-nine {
-  margin-top: 5rem;
-}
-.section-nine img {
-  width: 120px;
-}
-.section-nine ul li {
-  list-style-type: none;
-}
-
-#button-addon2 {
-  background: linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%);
-  display: flex;
-  width: 55px;
-  height: 55px;
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-}
-#button-addon2 i {
-  color: white;
 }/*# sourceMappingURL=style.css.map */

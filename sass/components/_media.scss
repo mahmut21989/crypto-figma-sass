@@ -1,0 +1,48 @@
+@media (max-width:768px){
+    .button-five{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: auto !important;
+       
+    }
+    .section-four-text{
+        margin-left: 0 !important;
+        text-align: center;
+    }
+    .buy{
+        .d-flex.column-gap-3{
+            justify-content: center;
+        }
+        .second-input{
+            width: 100% !important;
+        }
+        .first-input{
+            width: 180px !important;
+        }
+
+        .btn.btn-primary{
+            width: 100% !important;
+        }
+    }
+    .header-text{
+        text-align: center !important;
+    }
+    .header-buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        .header-buttonsa{
+            margin-bottom: 2rem;
+        }
+    }
+    .reverse{
+        flex-direction: column-reverse;
+    }
+    .button-five{
+        flex-direction: column;
+    }
+}
+

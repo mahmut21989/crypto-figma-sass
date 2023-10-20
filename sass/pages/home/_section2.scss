@@ -1,14 +1,16 @@
 @use"../../abstracts/mixins" as m;
 @use "../../abstracts/variables" as vari;
 
-.page-form h2{
-   
+.page-form h2 {
+
     @include m.start-title;
 }
 
-.page-form p{
+.page-form p {
     @include m.p;
 }
+
+/*
 .page-input-one input{
     @include m.big-input;
    
@@ -27,4 +29,57 @@
 }
 .page-large-button{
     @include m.large-buttons;
+}
+*/
+
+.amount {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: var(--GRA-Blue, linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-right: 1px solid #3984F4;
+    height: 45px;
+    padding-right: 20px;
+}
+
+.amount-box {
+    align-items: center;
+    padding: 0 20px;
+    display: flex;
+    border: 1px solid var(--GRA-Blue2, #3984F4);
+    background: #fff;
+    border-radius: 22px;
+    
+}
+
+.first-input {
+    outline: 0 !important;
+    border: none;
+    margin-left: 30px;
+    width: 250px;
+    height: 80px;
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.second-input {
+    width: 150px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 1px solid var(--GRA-Blue2, #3984F4);
+}
+
+.get-box {
+    padding-left: 31px;
+}
+
+.page-form img{
+    width: 500px;
 }
