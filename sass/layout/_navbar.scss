@@ -51,6 +51,21 @@
         
     }
 }
+
+#cornerBlurTwo {
+    position: absolute;
+  
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(149, 28, 113); // Pembe arkaplan rengi
+    filter: blur(200px); // Blur efekti uygulama//
+  }
+
+  
+
+  
     
 
 

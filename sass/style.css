@@ -46,6 +46,16 @@
     top: 400px;
   }
 }
+#cornerBlurTwo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(149, 28, 113);
+  filter: blur(200px);
+}
+
 .btn-full {
   background: linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%);
   color: white;
@@ -81,6 +91,29 @@
 
 .page-twoİmg {
   width: 500px;
+}
+
+.primary-section {
+  background-color: white;
+  transform: translateY(-50px);
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-radius: 3rem;
+}
+
+#cornerBlur {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(28, 80, 149);
+  filter: blur(200px);
+}
+
+.header {
+  overflow: hidden;
+  position: relative;
 }
 
 .page-form h2 {
@@ -210,4 +243,29 @@
 .section-eight img {
   width: 500px;
   margin-top: 8rem;
+}
+
+.section-nine {
+  margin-top: 5rem;
+}
+.section-nine img {
+  width: 120px;
+}
+.section-nine ul li {
+  list-style-type: none;
+}
+
+#button-addon2 {
+  background: linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%);
+  display: flex;
+  width: 55px;
+  height: 55px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+#button-addon2 i {
+  color: white;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+@use "../../abstracts/variables" as vari;
+.section-nine {
+    margin-top: 5rem;
+    img{
+        width: 120px;
+    }
+    ul{
+        li{
+            list-style-type: none;
+        }
+    }
+}
+
+#button-addon2{
+    background: linear-gradient(vari.$color-gradient-blue);
+    display: flex;
+width: 55px;
+height: 55px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+   i{
+    
+    color: white;
+   }
+}

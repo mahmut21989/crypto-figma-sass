@@ -19,3 +19,28 @@
 .page-twoİmg{
     width: 500px;
 }
+
+.primary-section{
+    background-color: white;
+    transform: translateY(-50px);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 3rem;
+
+}
+
+#cornerBlur {
+    position: absolute;
+  
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(28, 80, 149); // Pembe arkaplan rengi
+    filter: blur(200px); // Blur efekti uygulama//
+  }
+
+  .header{
+    overflow: hidden;
+    position: relative;
+  }
