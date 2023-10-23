@@ -15,7 +15,11 @@
 #button-addon2 i {
   color: white;
 }
-
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
 .text-span {
   font-size: small;
   background: linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%);
@@ -71,6 +75,12 @@
   height: 200px;
   background-color: rgb(149, 28, 113);
   filter: blur(200px);
+}
+
+.header-star {
+  position: absolute;
+  left: 35%;
+  animation: spin 1s linear infinite;
 }
 
 .btn-full {
@@ -140,6 +150,22 @@
   }
   .section-eight img, .five-image {
     width: 100% !important;
+  }
+  .seven-img-one, .seven-img-two {
+    display: none;
+  }
+  .header-star {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+  .header-buttonsa {
+    width: 100%;
+    padding: 12px;
+  }
+  .header-buttonsb {
+    width: 100%;
+    padding: 12px;
   }
 }
 .pace-table {
@@ -278,6 +304,11 @@
 
 .page-form img {
   width: 500px;
+}
+
+.buy-button {
+  width: 90%;
+  padding: 12px;
 }
 
 .section-three {

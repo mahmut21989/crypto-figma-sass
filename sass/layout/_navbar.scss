@@ -1,5 +1,15 @@
 @use"../abstracts/variables" as vari;
 
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
 .text-span{
     font-size: vari.$smoll-size;
     background: linear-gradient(vari.$color-gradient-blue);
@@ -62,6 +72,14 @@
     height: 200px;
     background-color: rgb(149, 28, 113); // Pembe arkaplan rengi
     filter: blur(200px); // Blur efekti uygulama//
+  }
+
+  .header-star{
+    position: absolute;
+    left: 35%;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
   }
 
   
