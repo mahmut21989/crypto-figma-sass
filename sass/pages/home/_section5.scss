@@ -7,8 +7,10 @@
 .text-span-two{
     @include m.span
 }
-.button-five-a{
+.button-five-{
     @include m.small-button
-
-
+}
+.five-image{
+   margin-right: 10px;
+    width: 400px;
 }

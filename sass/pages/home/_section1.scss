@@ -1,15 +1,23 @@
 @use"../../abstracts/variables" as vari;
 @use"../../abstracts/mixins" as m;
 
+
 .pace-table{
     width: 30%;
    td,th{
-    padding: 18px;
+    padding: 20px;
    }
    th{
     text-align: center;
    }
-   
+ 
+}
+.page-table-image{
+    display: flex;
+   align-items: center;
+    justify-content: start;
+    column-gap: 2rem;
+    
 }
 .primary-section{
     margin-top: 2rem;

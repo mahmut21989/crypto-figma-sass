@@ -1,5 +1,20 @@
 .section-seven{
     margin-top: 5rem;
+    position: relative;
+
+    .seven-img-one{
+        position: absolute;
+        bottom:0;
+        top: 35%;
+        left: 31%;
+    }
+    .seven-img-two{
+        position: absolute;
+        bottom:0;
+        top: 35%;
+        left: 58%;
+       
+    }
 }
 .section-seven img{
     width: 150px;

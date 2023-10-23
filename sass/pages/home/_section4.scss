@@ -9,9 +9,13 @@
     justify-content: start;
 
 }
-.section-four-text{
-    margin-left: 13rem;
+
+.section-four-img{
+    margin-right: 40px;
 }
 .text-span-one{
     @include m.span
+}
+.section-four-button{
+   width: 100%;
 }

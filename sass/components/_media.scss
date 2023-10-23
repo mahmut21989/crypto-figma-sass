@@ -7,8 +7,9 @@
        
     }
     .section-four-text{
-        margin-left: 0 !important;
+      
         text-align: center;
+       
     }
     .buy{
         .d-flex.column-gap-3{
@@ -44,5 +45,14 @@
     .button-five{
         flex-direction: column;
     }
+    .section-four-img{margin-right: 0 !important; width: 100%;}
+    .pace-table td, .pace-table th {
+        padding: 5px !important;
+    }
+    .primary-section{
+        margin-left: 0 !important;
+    }
+    .section-eight img,.five-image{width: 100% !important;}
+   
 }
 
